@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+body{
+
+  font-family: "Montserrat", Calibri;
+  margin: 0px;
+  background: rgba(0, 120, 225, 0.4);
+}
+footer{
+  text-align: center;
+}
+header h1{
+  position: relative;
+  top:10px;
+  left:15px;
+  padding-bottom:20px;
+}
+main{
+  margin-top: 110px;
+}
+#recent-airshows{
+  margin-top:100px;
+  max-width: 1000px;
+  margin:auto;
+  position: relative;
+}
+#main-header{
+  border-bottom: 2px solid black;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background: rgba(0, 120, 225, 0.9);
+}
+#logo{
+  float: left;
+  height: 50px;
+  width: 50px;
+  position:relative;
+  background-position: center !important;
+  background-size: cover !important;
+  bottom:8px;
+  right:5px;
+}
+article{
+  max-width: 37%;
+  background: white;
+  border:1px solid black;
+  display: inline-block;
+  margin: 15px;
+  padding:15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  transition:all 500ms;
+  position: relative;
+}
+article:hover{
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.4);
+  background: rgba(0,200,255,0.2);
+}
+article:hover .article-image{
+}
+a
+{
+  text-decoration-style: dotted;
+  font-style: italic;
+}
+.article-image{
+  height:200px;
+  max-width: 100%;
+  background-position: center !important;
+  background-size: cover !important;
+  transition: all 1s;
+}
+.katava{
+  max-width: 1000px;
+  margin:auto;
+}
+.katava h3, .katava h5{
+  display:inline-block;
+  margin:10px;
+}
+.text{
+  height: 150px;
+  overflow: scroll;
+  overflow-x: hidden;
+  border: 1px solid black;
+  background:white;
+  padding:5px 5px;
+}
+.text, p{
+  margin-top:0px;
+  letter-spacing: 0.7;
+}
+.my-input, .my-textarea{
+  display: block;
+  width: 80%;
+  margin:auto;
+  margin-bottom:10px;
+  padding: 20px;
+  text-decoration-style: double;
+  border-radius: 20px;
+  font-size: medium;
+  resize: vertical;
+}
+.my-input:focus{
+  background: rgba(0,200,255,0.2);
+  outline:none;
+}
+.my-input::placeholder{
+  color: grey;
+  font-size: medium;
+}
+#go {
+  display: block;
+  margin:auto;
+  margin-top: 10px;
+  vertical-align: middle;
+  border-radius: 3px;
+  padding: 5px 10px;
+  background-color: rgba(0,200,255,0.2);
+  position: relative;
+  top:10px;
+
+}
+#go:hover{
+  background-color: rgba(255,255,255,0.2)
+}
+#go:focus{
+  outline:none;
+  border: 1px solid black;
+}
+#here{
+  margin:auto;
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+  font-style: italic;
+  font-size: larger;
+}
